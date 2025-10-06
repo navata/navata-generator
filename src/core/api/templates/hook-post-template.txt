@@ -1,0 +1,14 @@
+import { useSWRMutationPmc } from '@/hooks/swr/useSWRMutationPmc';
+import { $PARAM_TYPES, $RESPONSE_TYPES } from '@/types/$MODULE_NAME/$FILE_NAME';
+$API_IMPORT
+import { ResponseData } from '@/utils/apiService/types';
+import { SWRMutationConfiguration } from 'swr/mutation';
+
+export const $HOOK_NAME = (
+  option?: SWRMutationConfiguration<ResponseData<$RESPONSE_TYPES>, any>
+) =>
+  useSWRMutationPmc(
+    '$HOOK_NAME',
+    async (_: any, { arg }: { arg: $PARAM_TYPES }) => await $FUNCTION_NAME({ payload: arg }),
+    option
+  );

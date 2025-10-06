@@ -1,0 +1,1052 @@
+[
+  {
+    "source": "/tpcn-danh-cho-phu-nu-mang-thai",
+    "destination": "/tpcn-cho-phu-nu-mang-thai",
+    "permanent": true
+  },
+  {
+    "source": "/gung-tot-vi-thuoc-tot-cho-suc-khoe-nhung-dung-lam-dung.htm",
+    "destination": "/gung-vi-thuoc-cho-suc-khoe.htm",
+    "permanent": true
+  },
+  {
+    "source": "/cac-buoc-duong-da-ban-ngay-quy-trinh-cham-soc-da-co-ban.htm",
+    "destination": "/quy-trinh-cham-soc-da-hang-ngay.htm",
+    "permanent": true
+  },
+  {
+    "source": "/an-gi-giup-con-thong-minh-2.htm",
+    "destination": "/goc-suc-khoe/suc-khoe-tre-em",
+    "permanent": true
+  },
+  {
+    "source": "/uong-can-tay-co-tac-dung-gi-cho-suc-khoe-va-lan-da-cua-ban.htm",
+    "destination": "/uong-can-tay-co-tac-dung-gi.htm",
+    "permanent": true
+  },
+  {
+    "source": "/nhung-cong-dung-tuyet-voi-cua-hat-oc-cho-doi-voi-suc-khoe.htm",
+    "destination": "/qua-oc-cho-gia-tri-dinh-duong-va-tac-dung-doi-voi-suc-khoe.htm",
+    "permanent": true
+  },
+  {
+    "source": "/tpcn-danh-cho-phu-nu-mang-thai",
+    "destination": "/tpcn-cho-phu-nu-mang-thai",
+    "permanent": true
+  },
+  {
+    "source": "/xoa-bop-giam-cang-thang-than-kinh.htm",
+    "destination": "/xoa-bop-giam-stress.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/vang-da-la-gi.html",
+    "destination": "/tpcn-cho-phu-nu-mang-thai",
+    "permanent": true
+  },
+  {
+    "source": "/suc-khoe/can-nang-thai-nhi",
+    "destination": "/bang-can-nang-thai-nhi.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-dau-lung.html",
+    "destination": "/chuyen-khoa/co-xuong-khop",
+    "permanent": true
+  },
+  {
+    "source": "/qua-tang-cham-soc-suc-khoe-thang-8.htm",
+    "destination": "/chuyen-khoa/co-xuong-khop",
+    "permanent": true
+  },
+  {
+    "source": "/9-loi-ich-tuyet-voi-cua-cai-bo-xoi-doi-voi-suc-khoe-ban-nen-biet.htm",
+    "destination": "/9-loi-ich-tuyet-voi-cua-rau-chan-vit.htm",
+    "permanent": true
+  },
+  {
+    "source": "/tre-em-ra-nhieu-mo-hoi-khi-vacca3n-docca3ng-vi-sao.htm",
+    "destination": "/goc-suc-khoe/suc-khoe-tre-em",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-suy-ho-hap.html",
+    "destination": "/chuyen-khoa/ho-hap",
+    "permanent": true
+  },
+  {
+    "source": "/tuyen-giap-la-gi-cac-loai-benh-pho-bien-lien-quan-tuyen-giap.htm",
+    "destination": "/tuyen-giap-la-gi-cac-loai-benh-pho-bien-lien-quan-tuyen-giap-draf.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-dong-mach-ngoai-bien.html",
+    "destination": "/chuyen-khoa/tim-mach",
+    "permanent": true
+  },
+  {
+    "source": "/benh/tai-bien-mach-mau-nao-dot-quy.html",
+    "destination": "/benh/tai-bien-mach-mau-nao.html",
+    "permanent": true
+  },
+  {
+    "source": "/su-khac-biet-giua-benh-dong-mach-vanh-voi-dong-mach-ngoai-bien.htm",
+    "destination": "/dong-mach-vanh-va-dong-mach-ngoai-bien.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-mach-vanh-la-gi-nhung-dieu-can-biet.html",
+    "destination": "/benh/mach-vanh.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-beo-phi.html",
+    "destination": "/benh/beo-phi.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-rubella.html",
+    "destination": "/benh/rubella.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh-soi-tim-hieu-ve-nguyen-nhan-trieu-chung-va-cach-dieu-tri-hieu-qua.htm",
+    "destination": "/benh-soi-o-tre-em-tim-hieu-nguyen-nhan-va-dau-hieu-nhan-biet-can-thiet.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh-soi-va-cac-con-duong-lay-benh.htm",
+    "destination": "/duong-lay-benh-soi.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-soi.html",
+    "destination": "/benh/soi.html",
+    "permanent": true
+  },
+  {
+    "source": "/giai-ma-nguyen-nhan-va-cach-phong-ngua-dot-quy-do-benh-tim-thieu-mau-cuc-bo.htm",
+    "destination": "/nguyen-nhan-va-phong-ngua-dot-quy-do-benh-tim-thieu-mau-cuc-bo.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-thuy-dau.html",
+    "destination": "/benh/thuy-dau.html",
+    "permanent": true
+  },
+  {
+    "source": "/thuc-don-cho-nguoi-thuy-dau.htm",
+    "destination": "/thuc-don-dinh-duong-cho-nguoi-mac-benh-thuy-dau.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-ung-thu-da-day.html",
+    "destination": "/benh/ung-thu-da-day.html",
+    "permanent": true
+  },
+  {
+    "source": "/xoa-bop-giam-cang-thang-than-kinh.htm",
+    "destination": "/xoa-bop-giam-stress.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/kho-mieng-la-gi.html",
+    "destination": "/benh/kho-mieng.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/roi-loan-phat-trien-lan-toa-la-gi.html",
+    "destination": "/benh/roi-loan-phat-trien-lan-toa.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-viem-nao.html",
+    "destination": "/benh/viem-nao.html",
+    "permanent": true
+  },
+  {
+    "source": "/hoi-chung-buong-trung-da-nang-la-gi-nhung-dieu-can-biet-ve-hoi-chung-buong-trung-da-nang.htm",
+    "destination": "/buong-trung-da-nang-2.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/vang-da-la-gi.html",
+    "destination": "/benh/vang-da.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/dong-kinh-la-gi.html",
+    "destination": "/benh/dong-kinh.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/viem-dai-trang-la-gi.html",
+    "destination": "/benh/viem-dai-trang.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-di-ung.html",
+    "destination": "/benh/di-ung.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/lupus-ban-do-he-thong-la-gi.html",
+    "destination": "/benh/lupus-ban-do.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/mun-boc-la-gi.html",
+    "destination": "/benh/mun-boc.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/roi-loan-tram-cam-dai-dang-la-gi.html",
+    "destination": "/benh/roi-loan-tram-cam-dai-dang.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/tong-quan-roi-loan-nhip-tim.html",
+    "destination": "/benh/roi-loan-nhip-tim.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/xo-cung-bi-la-gi.html",
+    "destination": "/benh/xo-cung-bi.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh-viem-mang-nao-la-gi.htm",
+    "destination": "/benh/viem-mang-nao.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-suy-ho-hap.html",
+    "destination": "/benh/suy-ho-hap.html",
+    "permanent": true
+  },
+  {
+    "source": "/huyet-ap-thap-mot-nguyen-nhan-gay-tai-bien-mach-nao-2.htm",
+    "destination": "/huyet-ap-thap-gay-tai-bien-mach-nao.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/roi-loan-tram-cam-dai-dang-la-gi.html",
+    "destination": "/benh/roi-loan-tram-cam-dai-dang.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/ung-thu-vu-la-gi.html",
+    "destination": "/benh/ung-thu-vu.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/kho-moi-la-gi.html",
+    "destination": "/benh/kho-moi.html",
+    "permanent": true
+  },
+  {
+    "source": "/viem-loet-da-day.htm",
+    "destination": "/dieu-tri-viem-loet-da-day.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/sut-moi-va-ho-ham-ech-la-gi.html",
+    "destination": "/benh/sut-moi-va-ho-ham-ech.html",
+    "permanent": true
+  },
+  {
+    "source": "/dung-dich-ve-sinh-phu-nu-femfresh-daily-intimate-wash-tot-khong-gia-bao-nhieu.htm",
+    "destination": "/femfresh-dung-dich-ve-sinh-phu-nu-cao-cap-hang-ngay-daily-intimate-wash-250ml.html",
+    "permanent": true
+  },
+  {
+    "source": "/tac-nhan-gay-benh-tay-chan-mieng-va-cach-phong-ngua.htm",
+    "destination": "/tac-nhan-benh-tay-chan-mieng.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-roi-loan-lo-au.html",
+    "destination": "/benh/roi-loan-lo-au.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-tam-than-phan-liet.html",
+    "destination": "/benh/tam-than-phan-liet.html",
+    "permanent": true
+  },
+  {
+    "source": "/tim-bam-sinh-la-gi-nhung-dieu-can-biet-ve-tim-bam-sinh.htm",
+    "destination": "/nhan-biet-som-mot-so-benh-tim-bam-sinh.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-sot-bai-liet.html",
+    "destination": "/benh/sot-bai-liet.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/trao-nguoc-bang-quang-nieu-quan-la-gi.html",
+    "destination": "/benh/trao-nguoc-bang-quang-nieu-quan.html",
+    "permanent": true
+  },
+  {
+    "source": "/nguoi-benh-tang-huyet-ap-can-dieu-chinh-che-do-an-nhu-the-nao.htm",
+    "destination": "/nguoi-benh-tang-huyet-ap-can-dieu-chinh-che-do-an.htm",
+    "permanent": true
+  },
+  {
+    "source": "/covid-19/thuoc-dieu-tri",
+    "destination": "/thuoc-dieu-tri-covid-19-tai-nha-va-huong-dan-su-dung.htm",
+    "permanent": true
+  },
+  {
+    "source": "/tips-cham-soc-da-mat-hang-ngay-danh-cho-dan-cong-so.htm",
+    "destination": "/quy-trinh-cham-soc-da-hang-ngay.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh/suy-giam-ham-muon-tinh-duc-nam-gioi.html",
+    "destination": "/benh/suy-giam-ham-muon-tinh-duc-o-nam-gioi.html",
+    "permanent": true
+  },
+  {
+    "source": "/circulation-tpcn-tuan-hoan-nao",
+    "destination": "/tpcn-tuan-hoan-mau-nao",
+    "permanent": true
+  },
+  {
+    "source": "/suc-khoe/tinh-ngay-rung-trung",
+    "destination": "/chuyen-gia-san-khoa-tiet-lo-5-cach-tinh-ngay-rung-trung-cuc-chuan.htm",
+    "permanent": true
+  },
+  {
+    "source": "/goc-suc-khoe/covid-19",
+    "destination": "/goc-suc-khoe/chuyen-muc",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-viem-phoi.html",
+    "destination": "/benh/viem-phoi.html",
+    "permanent": true
+  },
+  {
+    "source": "/covid-19/trieu-chung",
+    "destination": "/goc-suc-khoe/chuyen-muc",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-tieu-chay-cap-do-virus-rota.html",
+    "destination": "/benh/tieu-chay-cap-do-virus-rota.html",
+    "permanent": true
+  },
+  {
+    "source": "/mien-phi-van-chuyen.lp",
+    "destination": "/page/chinh-sach-giao-hang",
+    "permanent": true
+  },
+  {
+    "source": "/867.htm",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/world-aids-day.lp",
+    "destination": "/huong-ung-ngay-the-gioi-phong-chong-benh-aids.htm",
+    "permanent": true
+  },
+  {
+    "source": "/nhung-cong-dung-tuyet-voi-cua-hat-oc-cho-doi-voi-suc-khoe.htm",
+    "destination": "/qua-oc-cho-gia-tri-dinh-duong-va-tac-dung-doi-voi-suc-khoe.htm",
+    "permanent": true
+  },
+  {
+    "source": "/man-duc-nam-la-gi-nhung-dieu-can-biet-ve-man-duc-nam.htm",
+    "destination": "/benh/man-duc-nam.html",
+    "permanent": true
+  },
+  {
+    "source": "/chung-kho-nuot-la-gi-nhung-dieu-can-biet-ve-chung-kho-nuot.htm",
+    "destination": "/benh/chung-kho-nuot.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-tao-bon.html",
+    "destination": "/benh/tao-bon.html",
+    "permanent": true
+  },
+  {
+    "source": "/huyet-ap-thap-mot-nguyen-nhan-gay-tai-bien-mach-nao-2.htm",
+    "destination": "/huyet-ap-thap-gay-tai-bien-mach-nao.htm",
+    "permanent": true
+  },
+  {
+    "source": "/phi-dai-tuyen-tien-liet-la-gi-nhung-dieu-can-biet-ve-phi-dai-tuyen-tien-liet.htm",
+    "destination": "/chua-phi-dai-tien-liet-tuyen.htm",
+    "permanent": true
+  },
+  {
+    "source": "/xo-gan-mat-bu-la-gi-nhung-dieu-can-biet-ve-xo-gan-mat-bu.htm",
+    "destination": "/benh/xo-gan-mat-bu.html",
+    "permanent": true
+  },
+  {
+    "source": "/xo-gan-con-bu-la-gi-nhung-dieu-can-biet-ve-xo-gan-con-bu.htm",
+    "destination": "/benh/xo-gan-con-bu.html",
+    "permanent": true
+  },
+  {
+    "source": "/xo-gan-do-ruou-la-gi-nhung-dieu-can-biet-ve-xo-gan-do-ruou.htm",
+    "destination": "/benh/xo-gan-do-ruou.html",
+    "permanent": true
+  },
+  {
+    "source": "/nhan-biet-som-rubella-soi-duc-trieu-chung-dau-hieu-va-cach-phong-ngua.htm",
+    "destination": "/nhan-biet-som-rubella-soi-duc.htm",
+    "permanent": true
+  },
+  {
+    "source": "/sua-rua-mat-diu-nhe-cho-da-nhay-cam-eucerin-ph5-facial-cleanser.htm",
+    "destination": "/sua-rua-mat-eucerin-ph5-facial-cleanser-sensitive-skin-diu-nhe-cho-da-nhay-cam-chai-400ml.html",
+    "permanent": true
+  },
+  {
+    "source": "/hang-tram-khach-hang-tham-gia-tu-van-suc-khoe-mien-phi-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/chuyen-muc",
+    "permanent": true
+  },
+  {
+    "source": "/benh/benh-rubella.html",
+    "destination": "/benh/rubella.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh-sot-xuat-huyet-la-gi-tong-quan-ve-benh-sot-xuat-huyet.htm",
+    "destination": "/benh/sot-xuat-huyet.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh-sot-xuat-huyet.htm",
+    "destination": "/benh/sot-xuat-huyet.html",
+    "permanent": true
+  },
+  {
+    "source": "/sot-xuat-huyet-nguyen-nhan-trieu-chung-va-doi-tuong-de-mac-benh.htm",
+    "destination": "/benh/sot-xuat-huyet.html",
+    "permanent": true
+  },
+  {
+    "source": "/unilever",
+    "destination": "/cham-soc-ca-nhan",
+    "permanent": true
+  },
+  {
+    "source": "/song-khoe-moi-ngay.lp",
+    "destination": "/goc-suc-khoe/song-khoe",
+    "permanent": true
+  },
+  {
+    "source": "/tieu-chay-cap-do-virus-rota-nguyen-nh-n-trieu-chung-bien-chung-va-cach-phong-ngua.htm",
+    "destination": "/tieu-chay-cap-do-virus-rota.htm",
+    "permanent": true
+  },
+  {
+    "source": "/trieu-chung-cua-benh-viem-nao-nhat-ban.htm",
+    "destination": "/trieu-chung-viem-nao-nhat-ban.htm",
+    "permanent": true
+  },
+  {
+    "source": "/yeu-sinh-ly-la-gi-nhung-dieu-can-biet-ve-yeu-sinh-ly.htm",
+    "destination": "/benh/yeu-sinh-ly.html",
+    "permanent": true
+  },
+  {
+    "source": "/9-loi-ich-dang-kinh-ngac-ot-chuong-mang-lai-cho-suc-khoe.htm",
+    "destination": "/tac-dung-cua-ot-chuong-voi-suc-khoe-con-nguoi-luu-y-khi-an-de-dam-bao-an-toan.htm",
+    "permanent": true
+  },
+  {
+    "source": "/cach-tho-luyen-than-kinh.htm",
+    "destination": "/tho-dung-cach-day-lui-benh-tat.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh-da-mua-ret.htm",
+    "destination": "/benh",
+    "permanent": true
+  },
+  {
+    "source": "/5-sai-lam-cua-cac-ba-me-khien-tre-hay-om-vao-mua-lanh.htm",
+    "destination": "/goc-suc-khoe",
+    "permanent": true
+  },
+  {
+    "source": "/mat-ong-vua-la-thuc-pham-vua-la-thuoc.htm",
+    "destination": "/loi-ich-mat-ong-mang-lai.htm",
+    "permanent": true
+  },
+  {
+    "source": "/nha-thuoc-pharmacity-quang-nam-xin-chao-quy-khach.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/uu-dai-nha-thuoc-pharmacity-thu-1000.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/dieu-can-biet-ve-dung-cu-xet-nghiem-nhanh-covid-19-flowflex.htm",
+    "destination": "/huong-dan-su-dung-xet-nghiem-nhanh-humasis-covid-19-ag-home-test.htm",
+    "permanent": true
+  },
+  {
+    "source": "/mua-san-pham-thuong-hieu-pharmacity-nhan-ngay-uu-dai.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cam-nang-mua-sam-thang-4.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-khai-truong-10-nha-thuoc-tphcm-vung-tau-hue.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/tang-ngan-coupon-chao-mung-1000-nha-thuoc-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cau-hoi-thuong-gap.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/thanh-toan-bang-shopeepay-hoan-ngay-50.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/quet-ma-qr-momo-nhan-the-qua-uu-dai-den-50.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/nhan-ngay-clear-thao-duoc-khi-mua-don-hang-bat-ky-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-khai-truong-6-nha-thuoc-moi-tai-nghe-an.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cam-nang-mua-sam.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mua-welson-rinh-qua-suc-khoe.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sieu-tiec-sinh-nhat-quay-la-trung.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/san-uu-dai-tung-bung-chuc-mung-sinh-nhat-pharmacity-11th.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sieu-tiec-sinh-nhat-quay-la-trung-1.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/tang-ngay-goi-co-poomie-cao-cap-khi-mua-sam-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-khai-truong-9-nha-thuoc-moi-tai-ca-mau.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-khai-truong-20-nha-thuoc-moi-tren-toan-quoc.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-tung-bung-chao-don-nha-thuoc-so-1100.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/qua-xin-cho-be-yeu-1-6.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-khai-truong-7-nha-thuoc-moi-tai-tinh-soc-trang-t5.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-khai-truong-4-nha-thuoc-moi-tai-tinh-nam-dinh.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mieng-dan-nong-pharmacity-giam-dau-nhuc-moi-co-hieu-qua.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-va-duoc-hau-giang-hop-tac-phan-phoi-doc-quyen-collagen-nuoc-alfe.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/goi-y-mot-so-kem-tri-tham-quang-mat-nhieu-nguoi-tin-dung.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mua-hang-tang-ngan-coupon-thang-6.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/chuong-trinh-uu-dai-dac-biet-tai-nha-thuoc-pharmacity-can-tho.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mua-hotchland-rinh-qua-xin.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/ngay-phong-chong-viem-gan-the-gioi.htm",
+    "destination": "/viem-gan-nguyen-nhan-trieu-chung-va-cach-phong-ngua.htm",
+    "permanent": true
+  },
+  {
+    "source": "/tang-cuong-suc-de-khang-cho-be-khoe-manh-va-phong-benh-vao-mua-he.htm",
+    "destination": "/cach-tang-cuong-suc-de-khang-cho-be-vao-mua-he.htm",
+    "permanent": true
+  },
+  {
+    "source": "/big-sale-top-san-pham-chi-co-tai-pharmacity-official-tren-lazada-shopee-tiki.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cac-loai-sua-rua-mat-nam-gia-re-duoc-ua-chuong-nhat-hien-nay.htm",
+    "destination": "/sua-rua-mat",
+    "permanent": true
+  },
+  {
+    "source": "/huong-dan-cach-tu-lam-tinh-dau-buoi-duong-toc-don-gian-tai-nha.htm",
+    "destination": "/cong-dung-cua-vo-buoi-trong-viec-cham-soc-toc-cong-thuc-duong-toc-don-gian.htm",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-hoan-ngay-20000-thanh-toan-momo.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/xa-kho-sale-gia-soc-voi-loat-san-pham-chat-luong-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mua-innon-rinh-qua-sanh-dieu.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-cong-bo-quan-he-hop-tac-voi-boehringer-ingelheim-viet-nam.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/dai-le-vu-lan-ngap-tran-uu-dai.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/san-deal-sieu-khung-88-chuong-trinh-khuyen-mai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/88-ngay-doi-sale-gap-boi-san-pham-tren-lazada-shopee-tiki.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cham-soc-va-bao-ve-suc-khoe-cho-be-mua-tuu-truong.htm",
+    "destination": "/de-be-vui-khoe-mua-tuu-truong-giai-phap-xoa-tan-noi-lo-tao-bon.htm",
+    "permanent": true
+  },
+  {
+    "source": "/300-duoc-si-pharmacity-duoc-dao-tao-nghiep-vu-so-cap-cuu.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/kem-chong-nang-eucerin-sun-dry-touch-acne-oil-control-face-spf50-pa-co-tot-khong.htm",
+    "destination": "/kem-chong-nang-giup-kiem-soat-nhon-eucerin-sun-protection-spf50-oil-control-dry-touch-50ml.html",
+    "permanent": true
+  },
+  {
+    "source": "/bo-doi-kem-duong-trang-da-senka-white-beauty-glow-ban-ngay-va-ban-dem.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/canh-bao-xuat-hien-nhieu-tin-tuyen-dung-gia-mao-duoi-danh-nghia-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mua-hang-tang-ngan-coupon.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sale-cuoi-thang-don-luong-ve.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-tung-uu-dai-don-le-to-xa-kho-lon.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cham-soc-suc-khoe-tim-mach.htm",
+    "destination": "/goc-suc-khoe/song-khoe",
+    "permanent": true
+  },
+  {
+    "source": "/mua-drfrei-don-bao-qua-me-say.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/tan-huong-nhieu-uu-dai-hot-cung-pharmacity-dip-99.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sieu-sale-99-pharmacity-giam-den-50-san-pham-tren-lazada-tiki-shopee.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sieu-sale-99-pharmacity-giam-den-50-san-pham-tren-lazada-tiki-shopee-1.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/san-sale-thuong-hieu-cung-hang-trieu-deal-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/nhap-ma-giam-ngay-20k-khi-mua-sam-tai-pharmacity-thanh-toan-vi-momo.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/nhieu-uu-dai-dac-biet-mung-ngay-quoc-te-tri-an.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/nhan-ngan-coupon-khi-mua-sam-tai-nha-thuoc-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/san-pham-thuc-pham-bao-ve-suc-khoe-ho-tro-tim-mach-duoc-giam-gia.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sale-cuoi-thang-don-luong-ve-pharmacity-vo-van-uu-dai.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/khuyen-mai-kit-test-covid-19-chinh-hang-gia-soc-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cau-hoi-thuong-gap-ve-benh-dau-mua-khi.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/pharmacity-1010-bung-no-sieu-sale-gi-cung-re.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/thang-10-ruc-ro-deal-xin-gia-hoi-tai-pharmacity-tren-lazada-tiki-shopee.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/profa-cung-hanh-trinh-tiep-suc-cho-du-an-nuoi-em.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/chuong-trinh-sale-giua-thang-deal-to-gia-nho.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/chuc-mung-2010-thang-cua-nang-deal-hoanh-trang.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/them-yeu-thuong-them-qua-tang-cho-nang-lam-dep-dip-2010.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/mung-luong-ve-san-deal-tha-ga-tai-lazada-tiki-shopee.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/uu-dai-hot-chao-don-thang-11.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cap-nhat-lich-san-sale-ngay-hoi-doc-than-1111-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/single-day-mua-sam-me-say-khuyen-mai-1111.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/bao-sale-tung-bung-1111-giam-gia-sau-tai-lazada-tiki-shopee.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sieu-sale-giua-thang-deal-nua-gia-duy-nhat-ngay-1511.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/giam-gia-20-cac-san-pham-ho-tro-cham-soc-benh-tieu-duong.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cap-nhat-hang-loat-uu-dai-black-friday-2022-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/black-friday-chot-don-lien-tay-nhan-ngay-coupon-len-den-200k.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sieu-sale-1212-thang-ron-rang-ngap-tran-coupon-khuyen-mai.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/tong-hop-san-pham-khuyen-mai-dac-biet-tai-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/tiec-thuong-hieu-dinh-uu-dai-linh-dinh-thang-12.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/ngay-giua-thang-sale-nua-gia-pharmacity-x-lazada-tiki-shopee.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/sale-lon-cuoi-nam-tram-ngan-uu-dai.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/chao-don-giang-sinh-rinh-ngay-qua-tang.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/don-tet-to-chang-lo-ve-gia-cung-pharmacity.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/trao-qua-suc-khoe-xung-loi-chuc-hay.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/uu-dai-giam-gia-50-bo-xet-nghiem-nhanh-covid-19.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/qua-tet-2023-chuc-ong-ba-than-khoe-tam-an.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/deal-chop-nhoang-don-xuan-sang-giam-den-50.htm",
+    "destination": "/goc-suc-khoe/tin-tuc",
+    "permanent": true
+  },
+  {
+    "source": "/cac-benh-thuong-gap-mua-le-hoi.htm",
+    "destination": "/benh",
+    "permanent": true
+  },
+  {
+    "source": "/nhung-cach-phong-ngua-benh-tieu-duong.htm",
+    "destination": "/phong-benh-tieu-duong-tuyp-2",
+    "permanent": true
+  },
+  {
+    "source": "/virus-hmpv-nguy-hiem-the-nao-cach-phong-tranh-hieu-qua.htm",
+    "destination": "/human-metapneumovirus-hmpv-dieu-ban-can-biet-ve-virus-moi-tu-trung-quoc-2025.htm",
+    "permanent": true
+  },
+  {
+    "source": "/tat-tan-tat-ve-virus-hmpv-va-nguy-co-tu-cac-dot-bung-phat-tai-trung-quoc-2025.htm",
+    "destination": "/human-metapneumovirus-hmpv-dieu-ban-can-biet-ve-virus-moi-tu-trung-quoc-2025.htm",
+    "permanent": true
+  },
+  {
+    "source": "/san-pham/dung-dich-nho-mat-dieu-tri-roi-loan-bieu-mo-giac-ket-mac-sanlein-dry-eye-0-1-5ml",
+    "destination": "/dung-dich-nho-mat-dieu-tri-roi-loan-bieu-mo-giac-ket-mac-sanlein-dry-eye-0-1-5ml.html",
+    "permanent": true
+  },
+  {
+    "source": "/gocsuckhoe/tin-tuc/7-nguyen-tac-su-dung-thuoc-khang-sinh",
+    "destination": "/7-nguyen-tac-su-dung-thuoc-khang-sinh.htm",
+    "permanent": true
+  },
+  {
+    "source": "/san-pham/nhiet-ke-hong-ngoai-do-tran-microlife-fr1mf1",
+    "destination": "/nhiet-ke-hong-ngoai-do-tran-microlife-fr1mf1.html",
+    "permanent": true
+  },
+  {
+    "source": "/thong-bao-huong-dan-chinh-thuc-ve-viec-tra-hang-hoan-tien-cac-san-pham-thu-hoi-lien-quan-den-cong-ty-tnhh-cong-nghe-herbitech.htm",
+    "destination": "/thong-bao-huong-dan-chinh-thuc-ve-viec-chu-dong-hoan-tien-cac-san-pham-thu-hoi-lien-quan-den-cong-ty-tnhh-cong-nghe-herbitech.htm",
+    "permanent": true
+  },
+  {
+    "source": "/test-nhanh-genesign-giai-phap-toan-dien-cho-suc-khoe-ho-hap-tai-nha.htm",
+    "destination": "/kit-test-nhanh-cum-covid-genesign-giai-phap-toan-dien-cho-suc-khoe-ho-hap-tai-nha.htm",
+    "permanent": true
+  },
+  {
+    "source": "/con-ngan-ha-90-do-giai-phap-sat-khuan-va-khu-trung-hieu-qua.htm",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/lam-tuong-thuong-gap-khi-dieu-tri-benh-dai-thao-duong.htm",
+    "destination": "/lam-tuong-thuong-gap-trong-dieu-tri-benh-dai-thao-duong.htm",
+    "permanent": true
+  },
+  {
+    "source": "/page/chuong-trinh-thu-cu-doi-moi-but-tiem-tieu-duong",
+    "destination": "/chuong-trinh-thu-cu-doi-moi-but-tiem-tieu-duong.htm",
+    "permanent": true
+  },
+  {
+    "source": "/page/chuong-trinh-mang-but-tiem-cu-den-rinh-but-tiem-moi-ve-tro-gia-len-den-15-000d",
+    "destination": "/chuong-trinh-thu-cu-doi-moi-but-tiem-tieu-duong.htm",
+    "permanent": true
+  },
+  {
+    "source": "/page/voucher-40k-vms072025",
+    "destination": "/page/voucher-40k-vms",
+    "permanent": true
+  },
+  {
+    "source": "/dau-mat-o-tre-so-sinh-nguyen-nhan-trieu-chung-va-cach-dieu-tri.htm",
+    "destination": "/nguyen-nhan-dau-mat-do-va-cach-xu-ly-dung-cach.htm",
+    "permanent": true
+  },
+  {
+    "source": "/dau-hieu-va-nguyen-nhan-cua-benh-dau-mat-do.htm",
+    "destination": "/dau-hieu-benh-dau-mat-do-va-nhung-nguyen-nhan-thuong-gap.htm",
+    "permanent": true
+  },
+  {
+    "source": "/dau-mat-o-tre-so-sinh-nguyen-nhan-trieu-chung-va-cach-dieu-tri.htm",
+    "destination": "/dau-mat-do-o-tre-so-sinh-nguyen-nhan-trieu-chung-va-cach-dieu-tri-2.htm",
+    "permanent": true
+  },
+  {
+    "source": "/page/chuong-trinh-the-thanh-vien",
+    "destination": "/page/the-le-chuong-trinh-the-thanh-vien",
+    "permanent": true
+  },
+  {
+    "source": "/2596.htm",
+    "destination": "/chan-thuong-dung-cao-dan-nong-salonpas-hay-cao-dan-lanh-salonsip.htm",
+    "permanent": true
+  },
+  {
+    "source": "/imefed-dt-875mg125mg-2-vi-x-7-vien.html",
+    "destination": "/cepmox-clav-875mg-125mg-2-vi-x-7-vien.html",
+    "permanent": true
+  },
+  {
+    "source": "/alphachymotrypsine-glomed-hop-2-vi-x-10-vien.html",
+    "destination": "/alphachymotrypsine-hop-2-vi-x-10-vien.html",
+    "permanent": true
+  },
+  {
+    "source": "/benh/mun-an.html",
+    "destination": "/benh/mun-an-la-gi.html",
+    "permanent": true
+  },
+  {
+    "source": "/5-nha-thuoc-pharmacity-hoat-dong-247.htm",
+    "destination": "/nha-thuoc-hoat-dong-24-24.htm",
+    "permanent": true
+  },
+  {
+    "source": "/benh-vien-da-khoa-buu-dien-tp-hcm.htm",
+    "destination": "/goc-suc-khoe/benh-vien",
+    "permanent": true
+  }
+]

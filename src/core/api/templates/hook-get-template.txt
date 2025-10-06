@@ -1,0 +1,15 @@
+import { useSWRPmc } from '@/hooks/swr/useSWRPmc';
+import { $PARAM_TYPES, $RESPONSE_TYPES } from '@/types/$MODULE_NAME/$FILE_NAME';
+$API_IMPORT
+import { ResponseData } from '@/utils/apiService/types';
+import { SWRConfiguration } from 'swr';
+
+export const $HOOK_NAME = (
+  params: $PARAM_TYPES,
+  options?: SWRConfiguration<ResponseData<$RESPONSE_TYPES>>
+) => 
+  useSWRPmc(
+    params ? { key: '$HOOK_NAME', params } : null,
+    async ({ params }) => await $FUNCTION_NAME({ payload: params }),
+    options
+  );

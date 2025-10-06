@@ -1,0 +1,40 @@
+{
+  "name": "navata-generator",
+  "version": "1.0.2",
+  "main": "dist/cli/redirect.js",
+  "types": "dist/cli/convert.d.ts",
+  "bin": {
+    "navata-redirect": "./dist/cli/redirect.js",
+    "navata-api": "./dist/cli/api.js"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build:ts": "tsc",
+    "copy-templates": "mkdir -p dist/core/api/templates && cp src/core/api/templates/*.txt dist/core/api/templates/",
+    "build": "npm run clean && npm run build:ts && npm run copy-templates",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link:local": "npm run build && npm link",
+    "dev": "ts-node ./src/cli/redirect.ts --spreadsheet-id=17yPqr-q3d28FhfTk2M-rFYS1Uc6Ta35PndtdB2-rIqc --sheet-id=132624243 --output-file=redirects.json",
+    "dev-api": "npx tsx ./src/cli/api.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.4.1",
+    "@types/yargs": "^17.0.33",
+    "axios": "^1.12.2",
+    "csv-parser": "^3.2.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "fs-extra": "^11.3.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "dist"
+  ]
+}

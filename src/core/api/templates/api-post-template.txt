@@ -1,0 +1,20 @@
+import { $RESPONSE_TYPES, $PARAM_TYPES } from '@/types/$MODULE_NAME/$FILE_NAME';
+import { $API_PATH } from '@/consts/api-paths';
+import { RequestTypeDynamic } from '@/utils/apiService/types';
+import { sendRequest } from '@/utils/apiService';
+import { headersDefault, transformRequestDefault } from '@/utils/apiService/baseConfig';
+
+const url = `${$API_PATH}/$END_POINT`;
+
+export const $FUNCTION_NAME = async (args: RequestTypeDynamic<$PARAM_TYPES>) => {
+  $DESTRUCTURING_PAYLOAD
+  return await sendRequest<any, $RESPONSE_TYPES>({
+    config: {
+      url,
+      method: '$METHOD',
+      headers: headersDefault,
+      transformRequest: transformRequestDefault,
+    },
+    $ARGUMENT
+  });
+};
