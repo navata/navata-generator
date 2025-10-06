@@ -1,16 +1,10 @@
 #!/usr/bin/env node
 
-import { input, confirm, select, search } from "@inquirer/prompts";
+import { input,  select, search } from "@inquirer/prompts";
 import fs from "fs";
 import path from "path";
 import { createApiFile } from "./generic-api";
-import { fetchSwagger, genericTypes } from "./auto-generic-swagger";
 
-// base URLs cần so sánh
-const baseUrls = {
-  apiGateway: "https://api-gateway.example.com/",
-  vietmapUrl: "https://maps.vietmap.vn/",
-};
 
 const cwd = process.cwd();
 
@@ -75,29 +69,6 @@ const getModuleData = () => {
   }
 };
 
-const getSubfolders = (dir: string): string[] => {
-  // Đọc tất cả các mục trong thư mục
-  const files = fs.readdirSync(dir);
-
-  // Lọc chỉ các thư mục con
-  const subfolders = files.filter((file) =>
-    fs.statSync(path.join(dir, file)).isDirectory()
-  );
-
-  return subfolders;
-};
-
-const getModules = (): string[] => {
-  try {
-    // const dirPath = path.join(cwd, "/src/utils/api");
-    const dirPath =
-      "/Users/thai.nv/Desktop/Project/pmc-ecm-store-new/src/utils/api";
-    return getSubfolders(dirPath);
-  } catch (error) {
-    return [];
-  }
-};
-
 export default async function generateAPIAndHook(){
   try {
     const option = await select({
@@ -157,42 +128,38 @@ export default async function generateAPIAndHook(){
       (item) => item.path === apiDomain
     )?.name;
 
-    const swaggerUrl = await input({ message: "What's your swaggerUrl?" });
-    let endPoint = "";
-    if (swaggerUrl) {
-      const data = await fetchSwagger(swaggerUrl);
-      const pathList = Object.keys(data?.paths) || [];
-      endPoint = await search({
-        message: "What's your file the endpoint?",
-        pageSize: 20,
-        source: async (input, { signal }) => {
-          if (!input) {
-            return pathList.map((item) => ({
-              name: item,
-              value: item,
-            }));
-          }
+    //   const data = await fetchSwagger(swaggerUrl);
+    //   const pathList = Object.keys(data?.paths) || [];
+    //   endPoint = await search({
+    //     message: "What's your file the endpoint?",
+    //     pageSize: 20,
+    //     source: async (input, { signal }) => {
+    //       if (!input) {
+    //         return pathList.map((item) => ({
+    //           name: item,
+    //           value: item,
+    //         }));
+    //       }
 
-          const data = pathList.map((item) => ({
-            name: item,
-            value: item,
-          }));
+    //       const data = pathList.map((item) => ({
+    //         name: item,
+    //         value: item,
+    //       }));
 
-          if (data.length > 0) {
-            return data;
-          }
+    //       if (data.length > 0) {
+    //         return data;
+    //       }
 
-          return [
-            {
-              name: input,
-              value: input,
-            },
-          ];
-        },
-      });
-    } else {
-      endPoint = await input({ message: "What's your file the endpoint?" });
-    }
+    //       return [
+    //         {
+    //           name: input,
+    //           value: input,
+    //         },
+    //       ];
+    //     },
+    //   });
+    // } else {
+    const  endPoint = await input({ message: "What's your file the endpoint?" });
 
     const method = await select({
       message: "Select a method",
@@ -260,15 +227,6 @@ export default async function generateAPIAndHook(){
       default: getEndpointName(endPoint),
     });
 
-    const testData =
-      swaggerUrl &&
-      (await genericTypes({
-        swaggerUrl,
-        apiPath: endPoint,
-        method,
-        fileName,
-        moduleName,
-      }));
 
     createApiFile({
       moduleName,
@@ -276,7 +234,6 @@ export default async function generateAPIAndHook(){
       endPoint: convertApiUrl(endPoint),
       fileName,
       method,
-      typeValue: testData,
       shouldCreateHook: option === "hook" || option === "both",
       shouldCreateAPI: option === "api" || option === "both",
     });
@@ -284,190 +241,3 @@ export default async function generateAPIAndHook(){
     console.log(error);
   }
 }
-
-// (async () => {
-//   try {
-//     const option = await select({
-//       message: "Select the option?",
-//       choices: [
-//         {
-//           name: "Create API",
-//           value: "api",
-//         },
-//         {
-//           name: "Create Hook",
-//           value: "hook",
-//         },
-//         {
-//           name: "Create API & Hook",
-//           value: "both",
-//         },
-//       ],
-//     });
-
-//     const moduleDataList = getModuleData();
-
-//     const apiDomain = await search({
-//       message: "What's your domain?",
-//       pageSize: 20,
-//       source: async (input, { signal }) => {
-//         if (!input) {
-//           return moduleDataList.map((item) => ({
-//             name: item.path,
-//             value: item.path,
-//             description: `Module name: ${item.name}`,
-//           }));
-//         }
-
-//         const data = moduleDataList
-//           .filter((item) => item?.path?.includes(input || ""))
-//           .map((item) => ({
-//             name: item.path,
-//             value: item.path,
-//             description: `Module name: ${item.name}`,
-//           }));
-
-//         if (data.length > 0) {
-//           return data;
-//         }
-
-//         return [
-//           {
-//             name: input,
-//             value: input,
-//           },
-//         ];
-//       },
-//     });
-
-//     let moduleName = moduleDataList.find(
-//       (item) => item.path === apiDomain
-//     )?.name;
-
-//     const swaggerUrl = await input({ message: "What's your swaggerUrl?" });
-//     let endPoint = "";
-//     if (swaggerUrl) {
-//       const data = await fetchSwagger(swaggerUrl);
-//       const pathList = Object.keys(data?.paths) || [];
-//       endPoint = await search({
-//         message: "What's your file the endpoint?",
-//         pageSize: 20,
-//         source: async (input, { signal }) => {
-//           if (!input) {
-//             return pathList.map((item) => ({
-//               name: item,
-//               value: item,
-//             }));
-//           }
-
-//           const data = pathList.map((item) => ({
-//             name: item,
-//             value: item,
-//           }));
-
-//           if (data.length > 0) {
-//             return data;
-//           }
-
-//           return [
-//             {
-//               name: input,
-//               value: input,
-//             },
-//           ];
-//         },
-//       });
-//     } else {
-//       endPoint = await input({ message: "What's your file the endpoint?" });
-//     }
-
-//     const method = await select({
-//       message: "Select a method",
-//       choices: [
-//         {
-//           name: "GET",
-//           value: "get",
-//         },
-//         {
-//           name: "POST",
-//           value: "post",
-//         },
-//         {
-//           name: "PUT",
-//           value: "put",
-//         },
-//         {
-//           name: "PATCH",
-//           value: "patch",
-//         },
-//         {
-//           name: "DELETE",
-//           value: "delete",
-//         },
-//       ],
-//     });
-
-//     if (!moduleName) {
-//       const moduleRecommended = getModuleNameFromUrl(apiDomain);
-//       moduleName = await search({
-//         message: "What's your module?",
-//         pageSize: 20,
-//         source: async (input, { signal }) => {
-//           if (!input) {
-//             return [
-//               {
-//                 name: moduleRecommended,
-//                 value: moduleRecommended,
-//               },
-//             ];
-//           }
-
-//           const data = moduleDataList
-//             .filter((item) => item?.name?.includes(input || ""))
-//             .map((item, index) => ({
-//               name: item.name,
-//               value: item.name,
-//             }));
-
-//           if (data.length > 0) {
-//             return data;
-//           }
-
-//           return [
-//             {
-//               name: input,
-//               value: input,
-//             },
-//           ];
-//         },
-//       });
-//     }
-//     const fileName = await input({
-//       message: "What's your file name?",
-//       default: getEndpointName(endPoint),
-//     });
-
-//     const testData =
-//       swaggerUrl &&
-//       (await genericTypes({
-//         swaggerUrl,
-//         apiPath: endPoint,
-//         method,
-//         fileName,
-//         moduleName,
-//       }));
-
-//     createApiFile({
-//       moduleName,
-//       apiDomain,
-//       endPoint: convertApiUrl(endPoint),
-//       fileName,
-//       method,
-//       typeValue: testData,
-//       shouldCreateHook: option === "hook" || option === "both",
-//       shouldCreateAPI: option === "api" || option === "both",
-//     });
-//   } catch (error) {
-//     console.log(error);
-//   }
-// })();
