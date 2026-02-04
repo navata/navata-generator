@@ -48,7 +48,11 @@ export function processDir(srcDir: string, destDir: string): void {
   }
 }
 
-export function processSVGs(inputDir: string, outputDir: string) {
+export function processSVGs(
+  inputDir: string,
+  outputDir: string,
+  prefix?: string,
+) {
   fs.mkdirSync(outputDir, { recursive: true });
   const files = fs.readdirSync(inputDir);
 
@@ -66,9 +70,11 @@ export function processSVGs(inputDir: string, outputDir: string) {
     // const cleanName = file.replace(/^\d+-\d+-/, "");
     const ext = path.extname(file).toLowerCase();
     const base = path.basename(file, ext);
-    const newFileName = `${normalize(base)}${ext}`;
+    const basePrefix = prefix ? `${base}-${prefix}` : base;
+    const newFileName = `${normalize(basePrefix)}${ext}`;
 
     fs.writeFileSync(path.join(outputDir, newFileName), result.data);
-    console.log(`✅ Optimized & Renamed: ${newFileName}`);
+    // console.log(`✅ Optimized & Renamed: ${fileNamePrefix}`);
+    console.log(newFileName);
   }
 }

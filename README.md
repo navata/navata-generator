@@ -3,7 +3,8 @@
 `navata-generator` is a comprehensive **Command Line Interface (CLI)** toolset designed to automate repetitive tasks in development.
 
 This toolset includes two main commands:
-- **`navata-redirect`** → Generate Redirect configuration files from Google Sheets  
+
+- **`navata-redirect`** → Generate Redirect configuration files from Google Sheets
 - **`navata-api`** → Quickly scaffold API endpoints and Hooks
 
 ---
@@ -48,11 +49,11 @@ navata-redirect \
 
 ### 📋 Parameters
 
-| Parameter | Description | Required |
-|-----------|-------------|----------|
-| `--spreadsheet-id` | The unique ID of the Google Sheet containing the Redirect configuration. | ✅ Yes |
-| `--sheet-id` | The ID of the specific Sheet tab to read data from (GID). | ✅ Yes |
-| `--output-file` | The name and path of the JSON file to be exported. | ✅ Yes |
+| Parameter          | Description                                                              | Required |
+| ------------------ | ------------------------------------------------------------------------ | -------- |
+| `--spreadsheet-id` | The unique ID of the Google Sheet containing the Redirect configuration. | ✅ Yes   |
+| `--sheet-id`       | The ID of the specific Sheet tab to read data from (GID).                | ✅ Yes   |
+| `--output-file`    | The name and path of the JSON file to be exported.                       | ✅ Yes   |
 
 ---
 
@@ -86,7 +87,7 @@ navata-api
    Determine the parent module directory for your API. This helps organize code according to Micro-frontend or Module architecture.
 
    ```
-   What's your domain? 
+   What's your domain?
    ❯ pmc-ecm-order/api
      pmc-ecm-product/api
    ```
@@ -147,6 +148,37 @@ navata-api
 
 ---
 
+## 🛠️ 4. Using `navata-optimize-svg`
+
+This command reads Redirect configuration data from Google Sheets and exports it to a standardized JSON file for use in your application (typically in next.config.js).
+
+### 🧠 Command Syntax
+
+```bash
+navata-optimize-svg --input <PATH_TO_INPUT_FOLDER> --output <PATH_TO_OUTPUT_FOLDER> --prefix <PREFIX_NAME>
+```
+
+### 💡 Practical Example
+
+If you have a folder of raw color illustrations and want to optimize them into a new folder with a "color" prefix:
+
+```bash
+navata-optimize-svg \
+  --input /Users/thai.nv/Downloads/Illustration/Color \
+  --output /Users/thai.nv/Downloads/Illustration/Color-optimize \
+  --prefix color
+```
+
+### 📋 Parameters
+
+| Parameter  | Description                                                           | Required |
+| ---------- | --------------------------------------------------------------------- | -------- |
+| `--input`  | The path to the source folder containing raw SVG files..              | ✅ Yes   |
+| `--output` | The destination path where optimized SVGs will be saved.              | ✅ Yes   |
+| `--prefix` | A custom string to be prepended to each filename (e.g., mono, color). |
+
+---
+
 ## 🧱 Example Folder Structure
 
 ```
@@ -166,9 +198,9 @@ src/
 
 ## 🧩 Summary
 
-| Command | Description |
-|---------|-------------|
-| `navata-redirect` | Generate redirects JSON file from Google Sheets |
-| `navata-api` | Interactive CLI to generate API route and Hook files |
+| Command           | Description                                          |
+| ----------------- | ---------------------------------------------------- |
+| `navata-redirect` | Generate redirects JSON file from Google Sheets      |
+| `navata-api`      | Interactive CLI to generate API route and Hook files |
 
 ---

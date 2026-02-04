@@ -1,13 +1,13 @@
 {
   "name": "navata-generator",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "repository": "https://github.com/navata/navata-generator",
   "main": "dist/cli/redirect.js",
   "types": "dist/cli/convert.d.ts",
   "bin": {
     "navata-redirect": "./dist/cli/redirect.js",
     "navata-api": "./dist/cli/api.js",
-    "navata-rename-images": "./dist/cli/rename-images.js"
+    "navata-optimize-svg": "./dist/cli/optimize-svg.js"
   },
   "scripts": {
     "clean": "rm -rf dist",
@@ -19,7 +19,7 @@
     "dev": "ts-node ./src/cli/redirect.ts --spreadsheet-id=17yPqr-q3d28FhfTk2M-rFYS1Uc6Ta35PndtdB2-rIqc --sheet-id=132624243 --output-file=redirects.json",
     "dev-api": "npx tsx ./src/cli/api.ts",
     "prepublishOnly": "npm run build",
-    "test-rename-images": "ts-node ./src/cli/rename-images.ts --input /Users/thai.nv/Downloads/Illustration/Color --output /Users/thai.nv/Downloads/Illustration/Color-optimize"
+    "test-optimize-svg": "ts-node ./src/cli/optimize-svg.ts --input /Users/thai.nv/Downloads/Illustration/Color --output /Users/thai.nv/Downloads/Illustration/Color-optimize --prefix color"
   },
   "author": "",
   "license": "ISC",
